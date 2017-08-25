@@ -8,15 +8,12 @@
 				<div style="margin-top: 20px" align="center">
 					<img src="${pageContext.request.contextPath}/images/struts2.png"
 						width="188" height="66" style="margin-right: 20px"> <img
-						src="${pageContext.request.contextPath}/images/spring.gif"
+						src="${pageContext.request.contextPath}/images/spring.png"
 						width="152" height="66"> <img
 						src="${pageContext.request.contextPath}/images/hibernate.png"
 						width="203" height="56">
 				</div>
 			</table></td>
 	</tr>
-	</tr>
-	<tr height="5">
-		<td background="${pageContext.request.contextPath}/images/bottom.jpg"></td>
-	</tr>
+
 </table>

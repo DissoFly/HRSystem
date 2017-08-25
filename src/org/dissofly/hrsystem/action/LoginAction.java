@@ -33,7 +33,7 @@ public class LoginAction extends EmpBaseAction {
 	public String execute() throws Exception {
 		ActionContext ctx = ActionContext.getContext();
 		String ver2 = (String) ctx.getSession().get("rand");
-		if (/*vercode.equalsIgnoreCase(ver2)*/ true) {
+		if (vercode.equalsIgnoreCase(ver2)) {
 			System.out.println(getManager().toString());
 			int result = mgr.validLogin(getManager());
 			if (result == LOGIN_EMP) {
